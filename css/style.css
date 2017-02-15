@@ -1,0 +1,744 @@
+/**/
+@font-face {
+  font-family: 'gadugib';
+  src: url("fonts/GadugiBold/gadugib.eot");
+  src: url("fonts/GadugiBold/gadugib.eot?#iefix") format("embedded-opentype"), url("fonts/GadugiBold/gadugib.woff") format("woff"), url("fonts/GadugiBold/gadugib.woff2") format("woff2"), url("fonts/GadugiBold/gadugib.otf") format("otf"), url("fonts/GadugiBold/gadugib.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gadugi';
+  src: url("fonts/gadugi/gadugi.eot");
+  src: url("fonts/gadugi/gadugi.eot?#iefix") format("embedded-opentype"), url("fonts/gadugi/gadugi.woff") format("woff"), url("fonts/gadugi/gadugi.woff2") format("woff2"), url("fonts/gadugi/gadugi.otf") format("otf"), url("fonts/gadugi/gadugi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-bold';
+  src: url("fonts/GothamBold/gotham-bold.eot");
+  src: url("fonts/GothamBold/gotham-bold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamBold/gotham-bold.woff") format("woff"), url("fonts/GothamBold/gotham-bold.woff2") format("woff2"), url("fonts/GothamBold/gotham-bold.otf") format("otf"), url("fonts/GothamBold/gotham-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 10, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#layout {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -50px;
+}
+/* line 18, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#layout #layout_footer {
+  height: 50px;
+}
+
+/* line 20, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 50px;
+}
+
+/* line 51, ../../src/stylesheets/style.scss */
+html, body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  color: #000;
+}
+
+/*navbar*/
+/* line 71, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a {
+  font-family: "gadugib";
+  color: #777;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 77, ../../src/stylesheets/style.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  font-family: "gadugib";
+  color: #777;
+  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+/* line 86, ../../src/stylesheets/style.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+/* line 92, ../../src/stylesheets/style.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*end navbar*/
+/* line 98, ../../src/stylesheets/style.scss */
+header {
+  padding: 10px 0;
+}
+/* line 100, ../../src/stylesheets/style.scss */
+
+header a{
+  text-decoration: none !important;
+}
+header div.logo {
+  background: url('../images/logo.png') center center no-repeat;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-top: 55px;
+  padding-left: 98px;
+  color: #000;
+  font-size: 9px;
+  width: 300px;
+  height: 90px;
+}
+/* line 111, ../../src/stylesheets/style.scss */
+header div.diapoHeader {
+  height: 200px;
+  margin-top: 5px;
+}
+
+/* line 118, ../../src/stylesheets/style.scss */
+div.content div.grandImage {
+  background: url('../images/grand-image.jpg') center center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 180px;
+}
+/* line 122, ../../src/stylesheets/style.scss */
+div.content div.grandImage p {
+  font-family: "gotham-bold";
+  color: #FFF;
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 148px;
+}
+/* line 131, ../../src/stylesheets/style.scss */
+div.content div.grandImage ul a {
+  font-family: "gadugi";
+  color: #FFF;
+  text-decoration: none;
+  letter-spacing: 1.4px;
+}
+/* line 137, ../../src/stylesheets/style.scss */
+div.content div.grandImage ul a li:hover {
+  color: #333;
+}
+/* line 145, ../../src/stylesheets/style.scss */
+div.content div.subImageContent {
+  font-family: "gotham-bold";
+  color: #000;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+/* line 152, ../../src/stylesheets/style.scss */
+div.content div.subImageContent img {
+  margin-right: 6px;
+}
+/* line 158, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link {
+  text-decoration: none;
+}
+/* line 160, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box {
+  font-family: "gadugi";
+  width: 300px;
+  height: 300px;
+  border: 1px solid grey;
+  margin: 10px auto;
+}
+/* line 168, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box1 {
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 14px;
+  background-color: #404040;
+  color: white;
+}
+/* line 177, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box2 {
+  background: url('../images/box2.jpg') center center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'gotham-bold';
+  padding-top: 100px;
+  text-align: center;
+}
+/* line 183, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box2 span.res2 {
+  text-transform: uppercase;
+  color: white;
+}
+/* line 188, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box3 {
+  font-family: 'gotham-bold';
+  background: #404040;
+  color: white;
+  font-size: 14px;
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 197, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box3 img.maison {
+  width: 150px;
+  height: 96px;
+}
+/* line 204, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box3 ul {
+  width: 71%;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 600;
+}
+/* line 210, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box3 ul li img {
+  vertical-align: super;
+}
+/* line 213, ../../src/stylesheets/style.scss */
+div.content div.theRow a.this-link div.box3 ul li span {
+  font-size: 20px;
+  letter-spacing: 1.8px;
+}
+
+/* line 228, ../../src/stylesheets/style.scss */
+footer {
+  background-color: #e0e0e0;
+  color: white;
+  height: auto !important;
+}
+/* line 232, ../../src/stylesheets/style.scss */
+footer .footer-logo {
+  padding: 10px 0;
+}
+
+@media (min-width: 375px) {
+  /* line 240, ../../src/stylesheets/style.scss */
+  header div.logo {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 425px) {
+  /* line 249, ../../src/stylesheets/style.scss */
+  .navbar {
+    border-radius: 0px;
+  }
+
+  /* line 253, ../../src/stylesheets/style.scss */
+  .navbar-default {
+    background-color: transparent;
+    border-color: #5f5f5f;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+  }
+
+  /* line 260, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 12px;
+    color: #000;
+    line-height: 28px;
+  }
+
+  /* line 265, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+  }
+
+  /* line 270, ../../src/stylesheets/style.scss */
+  header div.diapoHeader {
+    height: 250px;
+    margin-top: 5px;
+  }
+
+  /* line 278, ../../src/stylesheets/style.scss */
+  div.content div.theRow div.box2 {
+    padding-top: 130px;
+    text-align: center;
+  }
+  /* line 281, ../../src/stylesheets/style.scss */
+  div.content div.theRow div.box2 span.res2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+  }
+  /* line 286, ../../src/stylesheets/style.scss */
+  div.content div.theRow div.box2 img {
+    margin-bottom: 10px;
+  }
+  /* line 292, ../../src/stylesheets/style.scss */
+  div.content div.grandImage {
+    height: 220px;
+  }
+  /* line 294, ../../src/stylesheets/style.scss */
+  div.content div.grandImage p {
+    font-size: 11px;
+    padding-top: 180px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 306, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 7px;
+  }
+
+  /* line 312, ../../src/stylesheets/style.scss */
+  header div.diapoHeader {
+    height: 300px;
+  }
+
+  /* line 321, ../../src/stylesheets/style.scss */
+  div.content div.grandImage {
+    position: relative;
+    height: 350px;
+  }
+  /* line 324, ../../src/stylesheets/style.scss */
+  div.content div.grandImage p {
+    font-size: 14px;
+    padding-top: 280px;
+    text-align: left;
+    margin-left: 80px;
+  }
+  /* line 330, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul {
+    padding: 10px 15px;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 42px;
+    background-color: #b00015;
+  }
+  /* line 338, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul a li {
+    padding: 3px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  /* line 350, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box {
+    width: 470px;
+    height: 437px;
+  }
+  /* line 354, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box1 {
+    padding-top: 114px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1.5px;
+  }
+  /* line 363, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 {
+    padding-top: 180px;
+    text-align: center;
+  }
+  /* line 366, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 span.res2 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 373, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 {
+    font-size: 16px;
+    padding-top: 60px;
+  }
+  /* line 377, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 img.maison {
+    width: 354px;
+    height: 226px;
+    margin-bottom: 15px;
+  }
+  /* line 383, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul {
+    width: 48%;
+  }
+  /* line 386, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li img {
+    vertical-align: super;
+  }
+  /* line 389, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li span {
+    font-size: 22px;
+    letter-spacing: 2.2px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 409, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 15px;
+  }
+
+  /* line 413, ../../src/stylesheets/style.scss */
+  header {
+    padding-top: 0;
+  }
+  /* line 415, ../../src/stylesheets/style.scss */
+  header div.logo {
+    background: url('../images/logo.png') left center no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-top: 100px;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-left: 109px;
+    width: 408px;
+    height: 103px;
+    padding-top: 60px;
+  }
+  /* line 427, ../../src/stylesheets/style.scss */
+  header div.diapoHeader {
+    margin-top: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 431, ../../src/stylesheets/style.scss */
+  header div.diapoHeader div.leftBgDiapo {
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../images/leftBgDiapo.png') left center no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 102px;
+    height: 295px;
+  }
+  /* line 443, ../../src/stylesheets/style.scss */
+  header div.diapoHeader div.rightBgDiapo {
+    z-index: 9999;
+    position: absolute;
+    right: -50px;
+    top: 0px;
+    background: url('../images/rightBgDiapo.png') right center no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 716px;
+    height: 360px;
+  }
+
+  /* line 460, ../../src/stylesheets/style.scss */
+  div.content .ardess-img {
+    text-align: left;
+  }
+  /* line 463, ../../src/stylesheets/style.scss */
+  div.content .tel-img {
+    text-align: right;
+  }
+  /* line 466, ../../src/stylesheets/style.scss */
+  div.content div.subImageContent {
+    font-size: 16px;
+  }
+  /* line 469, ../../src/stylesheets/style.scss */
+  div.content div.theRow {
+    margin: 0 auto;
+  }
+  /* line 471, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link {
+    display: inline-block;
+  }
+  /* line 473, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box {
+    max-width: 310px;
+    height: 300px;
+  }
+  /* line 477, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box1 {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  /* line 484, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 {
+    padding-top: 120px;
+  }
+  /* line 486, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 span.res2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 493, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 {
+    font-size: 14px;
+    padding-top: 60px;
+  }
+  /* line 497, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 img.maison {
+    width: 150px;
+    height: 96px;
+  }
+  /* line 502, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul {
+    width: 69%;
+  }
+  /* line 505, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li img {
+    vertical-align: super;
+  }
+  /* line 508, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li span {
+    font-size: 18px;
+    letter-spacing: 2.2px;
+  }
+
+  /* line 525, ../../src/stylesheets/style.scss */
+  footer {
+    background-color: #e0e0e0;
+    color: white;
+    height: 100px !important;
+  }
+  /* line 529, ../../src/stylesheets/style.scss */
+  footer .footer-logo {
+    padding: 10px 0;
+  }
+  /* line 532, ../../src/stylesheets/style.scss */
+  footer .text-footer {
+    padding-top: 6px;
+    text-align: right;
+    font-size: 9.5px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 550, ../../src/stylesheets/style.scss */
+  div.content div.grandImage p {
+    margin-left: 100px;
+    word-spacing: 3px;
+    letter-spacing: 1.6px;
+  }
+  /* line 555, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul {
+    width: 200px;
+    padding: 41px 0  40px 36px;
+  }
+  /* line 559, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul a li {
+    padding: 3px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 582, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 25px;
+  }
+
+  /* line 588, ../../src/stylesheets/style.scss */
+  header div.logo {
+    margin-top: 130px;
+    font-size: 14px;
+    margin-left: 60px;
+    padding-left: 127px;
+    width: 416px;
+    height: 125px;
+    padding-top: 72px;
+  }
+  /* line 599, ../../src/stylesheets/style.scss */
+  header div.diapoHeader {
+    height: 387px;
+  }
+  /* line 601, ../../src/stylesheets/style.scss */
+  header div.diapoHeader div.leftBgDiapo {
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../images/leftBgDiapo.png') left center no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 102px;
+    height: 385px;
+  }
+  /* line 613, ../../src/stylesheets/style.scss */
+  header div.diapoHeader div.rightBgDiapo {
+    z-index: 9999;
+    position: absolute;
+    right: -50px;
+    top: 0px;
+    background: url('../images/rightBgDiapo.png') right center no-repeat;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 939px;
+    height: 457px;
+  }
+
+  /* line 630, ../../src/stylesheets/style.scss */
+  div.content div.grandImage {
+    height: 469px;
+  }
+  /* line 632, ../../src/stylesheets/style.scss */
+  div.content div.grandImage p {
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 347px;
+  }
+  /* line 637, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul {
+    width: 245px;
+  }
+  /* line 640, ../../src/stylesheets/style.scss */
+  div.content div.grandImage ul a li {
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  /* line 654, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box {
+    max-width: 377px;
+    height: 350px;
+  }
+  /* line 658, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box1 {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1.5px;
+  }
+  /* line 667, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 {
+    padding-top: 140px;
+  }
+  /* line 669, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 span.res2 {
+    font-size: 16px;
+  }
+  /* line 673, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 {
+    font-size: 15px;
+    padding-top: 70px;
+  }
+  /* line 677, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 img.maison {
+    width: 200px;
+    height: 128px;
+  }
+  /* line 682, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul {
+    width: 62%;
+  }
+  /* line 686, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li img {
+    vertical-align: super;
+  }
+  /* line 689, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li span {
+    font-size: 20px;
+    letter-spacing: 2.4px;
+  }
+}
+@media (min-width: 1441px) {
+  /* line 712, ../../src/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 35px;
+  }
+
+  /* line 716, ../../src/stylesheets/style.scss */
+  div.container {
+    width: 1448px;
+  }
+
+  /* line 722, ../../src/stylesheets/style.scss */
+  div.content div.grandImage p {
+    margin-left: 245px;
+  }
+  /* line 729, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box {
+    max-width: 470px;
+    height: 437px;
+  }
+  /* line 733, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box1 {
+    padding-top: 114px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1.5px;
+  }
+  /* line 742, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 {
+    padding-top: 195px;
+    text-align: center;
+  }
+  /* line 745, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box2 span.res2 {
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+  /* line 753, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 {
+    font-size: 16px;
+    padding-top: 60px;
+    letter-spacing: 1.3px;
+  }
+  /* line 758, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 img.maison {
+    width: 354px;
+    height: 226px;
+    margin-bottom: 15px;
+  }
+  /* line 764, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul {
+    width: 54%;
+  }
+  /* line 768, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li img {
+    vertical-align: super;
+  }
+  /* line 771, ../../src/stylesheets/style.scss */
+  div.content div.theRow a.this-link div.box3 ul li span {
+    font-size: 23.5px;
+    letter-spacing: 2.5px;
+  }
+
+  /* line 788, ../../src/stylesheets/style.scss */
+  footer .text-footer {
+    font-size: 10px;
+  }
+}
