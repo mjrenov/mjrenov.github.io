@@ -670,6 +670,10 @@ footer .footer-logo {
   }
 }
 @media (min-width: 1441px) {
+  
+  header div.logo {
+    width: 476px;
+  }
   /* line 712, ../../src/stylesheets/style.scss */
   .navbar-default .navbar-nav > li > a {
     padding: 10px 35px;
